@@ -4,7 +4,6 @@ import styles from "./banner.module.css";
 const Banner = () => {
   return (
     <div className={styles.banner}>
-      {/* Background image for better compatibility */}
       <Image 
         src="/championswall.jpg" 
         alt="Champions Wall" 
