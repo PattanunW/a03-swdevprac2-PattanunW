@@ -4,14 +4,6 @@ import styles from "./banner.module.css";
 const Banner = () => {
   return (
     <div className={styles.banner}>
-      <Image 
-        src="/championswall.jpg" 
-        alt="Champions Wall" 
-        width={1920} 
-        height={600} 
-        className={styles.image} 
-        priority
-      />
       <div className={styles.content}>
         <h1 className={styles.title}>where every event finds its venue</h1>
         <p className={styles.subtitle}>
