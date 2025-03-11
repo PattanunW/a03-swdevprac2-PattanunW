@@ -1,5 +1,5 @@
 .banner {
-    background-image: url('/championswall.jpg'); /* เปลี่ยนเป็นรูปที่เลือก */
+    background-image: url('/championswall.jpg'); 
     background-size: cover;
     background-position: center;
     height: 300px;
