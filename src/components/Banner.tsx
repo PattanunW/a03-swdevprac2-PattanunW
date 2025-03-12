@@ -1,17 +1,17 @@
-import Image from "next/image";
-import styles from "./banner.module.css";
+import styles from './banner.module.css'
+import Image from 'next/image'
 
-const Banner = () => {
-  return (
-    <div className={styles.image}>
-      <div className={styles.content}>
-        <h1 className={styles.title}>where every event finds its venue</h1>
-        <p className={styles.subtitle}>
-          Anfield is the best football stadium to ever exist.
-        </p>
-      </div>
-    </div>
-  );
-};
-
-export default Banner;
+export default function Banner(){
+    return(
+        <div className={styles.banner}>
+            <Image src={'championswall.jpg'}
+            alt='cover'
+            fill ={true}
+            objectFit ='cover'/>
+            <div className={styles.bannerText}>
+                <h1>where every event finds its venue</h1>
+                <h3>Anfield is the best football stadium to ever exist.</h3>
+            </div>
+        </div>
+    )
+}
